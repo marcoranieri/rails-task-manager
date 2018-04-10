@@ -1,0 +1,28 @@
+// Place all the styles related to the tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+h1 {
+  color: blue;
+  &:hover{
+    font-size: 200px;
+    color: orange;
+    font-weight: bolder;
+    text-decoration: underline overline;
+  }
+}
+
+a {
+  text-decoration: none;
+  color:violet;
+  &:hover{
+    padding: 15px;
+    text-decoration:underline;
+    color:darkblue;
+    letter-spacing: 5px;
+  }
+}
+
+div {
+  padding: 8px;
+  margin-bottom: 1px dotted black;
+}

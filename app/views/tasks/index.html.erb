@@ -1,0 +1,12 @@
+<h1>All the TASK:</h1>
+
+<% @tasks.each do |t| %>
+
+  <div>
+    <%= t.completed ? "[_]" : "[x]" %> <%= link_to (t.title).capitalize, task_path(t) %>
+  </div>
+
+<% end %>
+
+<hr>
+<%= link_to "Add NEW!!!", new_path %>
